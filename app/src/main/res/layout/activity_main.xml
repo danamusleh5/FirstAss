@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="373dp"
+        android:layout_height="208dp"
+        android:layout_gravity="center"
+        android:src="@drawable/stuff"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/if_you_wanna_help"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+
+         />
+
+
+    <Spinner
+        android:id="@+id/subjects_spinner"
+        android:layout_width="224dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        >
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:text="@string/submit"
+        android:onClick="btnSubmitOnClick"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirstAss</string>
+    <string name="submit">Submit</string>
+    <string name="select_the_subject">Select The Subject!</string>
+    <string name="if_you_wanna_help">If You Wanna help please choose the subject and press the button</string>
+    <string-array name="subjects_array">
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Math</item>
+        <item>Physics</item>
+        <item>History</item>
+        <item>Philosophy</item>
+    </string-array>
+    
+    
+</resources>
